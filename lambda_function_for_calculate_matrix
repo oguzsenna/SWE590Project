@@ -1,0 +1,15 @@
+import json
+
+def lambda_handler(event, context):
+    # Read in the matrix and number of iterations from the event data
+    matrix = event['matrix']
+    power = event['n']
+    result = matrix
+    # Iterate over the matrix the specified number of times
+    for i in range(power - 1):
+        result = [[sum(result[i][k] * matrix[k][j] for k in range(5)) for j in range(5)] for i in range(5)]
+    # Return the squared matrix
+    return {
+        'Result': result
+    }
+

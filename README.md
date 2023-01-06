@@ -1,2 +1,8 @@
-# SWE590 Cloud Computing Applications
-Here you can find our project about our project which is about comparing the Cloud vendors GCP and AWS. Also, as a second project you can find the aws architecture.
+# 590 Power of 5x5 Matrix
+This repository consisty flask app running on ec2, python code that running on lambda function and text file for sending request.
+
+
+
+
+
+![last_arch](https://user-images.githubusercontent.com/57816597/209660066-e408f41e-93fa-45cc-82b5-04bccb8c6d8f.png)
